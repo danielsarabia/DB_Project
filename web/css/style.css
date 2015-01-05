@@ -1,0 +1,392 @@
+@charset "utf-8";
+@font-face {
+font-family: "denseRegular";
+src: url(../fonts/Dense-Regular.woff) format("woff"), url(../fonts/Dense-Regular.ttf) format("truetype");
+}
+@font-face {
+font-family: "OpenSans-Regular";
+src: url(../fonts/OpenSans-Regular.ttf) format("truetype"), url(../fonts/OpenSans-Regular.woff) format("woff");
+}
+
+@font-face {
+font-family: "OpenSans-ExtraBold";
+src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype"), url(../fonts/OpenSans-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+font-family: "OpenSans-Semibold";
+src: url(../fonts/OpenSans-Semibold.ttf) format("truetype"), url(../fonts/OpenSans-Semibold.woff) format("woff");
+}
+
+@font-face {
+font-family: "OpenSans-Light";
+src: url(../fonts/OpenSans-Light.ttf) format("truetype"), url(../fonts/OpenSans-Light.woff) format("woff");
+}
+
+@font-face {
+font-family: "OpenSans-Bold";
+src: url(../fonts/OpenSans-Bold.ttf) format("truetype"), url(../fonts/OpenSans-Bold.woff) format("woff");
+}
+
+* {margin:0; padding: 0;}
+
+a{text-decoration:none;}
+a:visited{color:#FF0000;}
+
+html{
+width:100%;
+height: 100%;
+}
+
+body {
+height: 100%;
+background-color:#FFFFFF;
+background-repeat:repeat;
+}
+
+#global{
+	 position: relative;
+	 left:0;
+	 right:0;
+	 width:100%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 min-height: 100%;	
+}
+
+#header{
+	text-align:center;
+	background-image:url(../img/fondorayas12.png);
+	background-repeat:repeat;
+	margin-bottom:25px;
+	height: 100px;
+}
+
+#menutop{
+	 width:1024px;
+	 padding-top:3px;
+	 text-align:left;
+	 margin-left:auto;
+	 margin-right:auto;
+	 height:97px;
+	 font-family:'Open Sans', sans-serif;
+	 font-size:12px;
+	 color:#FFFFFF;
+	 background-color:#FF0000;
+}
+
+.thumbnail{
+	 float:left;
+	 width:190px;
+	 padding:3px;
+	 padding-top:30px;
+	 padding-left:10px;
+	 
+	 text-align:center;
+	 margin-right:5px;
+	 margin-left:5px;
+	 height:170px;
+	 border: solid #FF0000 2px;
+}
+
+.thumbnail p{
+	font-family:'OpenSans-Regular', sans-serif;
+	font-size:15px;
+	color:#FF0000;
+}
+
+.thumbnail h1{
+	font-family:'OpenSans-ExtraBold', sans-serif;
+	font-size:65px;
+	color:#FF0000;
+}
+
+#area{
+	width:1024px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sidebar{
+	 width:197px;
+	 height:797px;
+	 padding-top:3px;
+	 text-align:left;
+	 float:left;
+	 font-family:'Open Sans', sans-serif;
+	 font-size:12px;
+	 color:#FFFFFF;
+	 background-color:#FFFFFF;
+}
+
+.linkslinks a{
+	
+	
+	 color:#FF0000;
+	
+	}
+
+.linkslinks{
+	
+	width:100px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:40px;
+	 /* border-right-color:#FF0000;
+	 border-right-style:solid;
+	 border-right-width:2px; */
+	 font-family:'OpenSans-Semibold', sans-serif;
+	 font-size:20px;
+	 color:#FF0000;
+	 float:right;
+	
+	}
+
+#sidebar p{
+	text-align:center;
+	font-family:'OpenSans-Bold', sans-serif;
+	font-size:18px;
+	color:#FF0000;
+	border-bottom-color:#FF0000;
+	border-bottom-style:solid;
+	border-bottom-right-width:3px;	
+	border-left-color:#FF0000;
+	border-left-style:solid;
+	border-left-width:3px;	
+	border-top-color:#FF0000;
+	border-top-style:solid;
+	border-top-width:3px;	
+	border-right-color:#FF0000;
+	border-right-style:solid;
+	border-right-width:3px;	
+	margin-bottom:5px;
+}
+
+#sidebar a{
+}
+
+#sidebar li:hover{
+	background-image:url(../img/fondorayas2.png);
+	background-repeat:repeat;
+	cursor:pointer;
+}
+
+
+#sidebar li{
+	text-align:center;
+	font-family:'OpenSans-Regular', sans-serif;
+	font-size:18px;
+	color:#FF0000;
+	list-style:none;
+	margin-bottom:5px;
+}
+
+select{
+	font-family:'Open Sans', sans-serif;
+	 font-size:15px;
+	 color:#000000;
+}
+
+#selects{
+	 width:500px;
+	 margin-top:30px;
+	 padding-top:3px;
+	 text-align:left;
+	 float:right;
+	 height:27px;
+	 font-family:'Open Sans', sans-serif;
+	 font-size:12px;
+	 color:#FFFFFF;
+	 background-color:#000000;
+}
+
+#content {
+	 text-align:center;
+     width:798px;
+	 height:794px;
+	 float:left;
+     padding-left:20px;
+	 background-color:#FFFFFF; 
+    overflow: scroll;
+}
+
+#content h1{
+    font-family:"OpenSans-ExtraBold", sans-serif;
+	 margin-bottom:15px;
+	color:#FF0000;
+	font-size:25px;
+	width:inherit;
+}
+
+#content h2{
+    font-family:"OpenSans-Semibold", sans-serif;
+	 margin-bottom:20px;
+	color:#FF0000;
+	font-size:18px;
+	width:inherit;
+}
+
+#questionaire {
+	 text-align:center;
+     width:600px;
+     height:794px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left:20px;
+	 background-color:#FFFFFF; 
+}
+
+#questionaire h1{
+	 font-family:"OpenSans-Bold", sans-serif;
+	 margin-bottom:20px;
+	color:#FF0000;
+	font-size:20px;
+	width:inherit;
+	border-bottom:solid 3px #FF0000;
+}
+
+#options {
+    text-align: left;
+    padding-left: 30px;
+    font-family:"OpenSans-Regular", sans-serif;
+	color:#FF0000;
+	font-size:17px;
+}
+
+#contenedorInputsLogin{
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	 position: relative;
+	background-color:transparent;
+	width:475px;
+	height:100px;
+}
+
+#contenedorInputsRegistro{
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	 position: relative;
+	background-color:transparent;
+	width:475px;
+	height:800px;
+}
+
+
+#contenedorLogin{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	 position: relative;
+	text-align:center;
+	background-color:transparent;
+	width:700px;
+	height:500px;
+}
+
+#contenedorLogin h1{
+	font-family:"OpenSans-Bold", sans-serif;
+	color:#FF0000;
+	font-size:50px;
+	width:inherit;
+	border-bottom:solid 3px #FF0000;
+}
+
+#contenedorLogin span{
+	float:left;
+	font-family:"OpenSans-SemiBold", sans-serif;
+	color:#FF0000;
+	font-size:20px;
+}
+
+#footer{
+	 position: relative;
+	text-align:center;
+	background-image:url(../img/fondorayas12.png);
+	margin-top:25px;
+	height: 150px;
+}
+
+.textoBusqueda{
+	float:left;
+    font-family:"OpenSans-Light", sans-serif;
+	font-size:18px;
+	padding-left:10px;
+	margin-top:30px;
+	color:#FF0000;
+	background-color:#FFFFFF;
+	border: 1px solid #FF0000;
+	width:350px;
+	height:30px;
+}
+
+.textoLogin{
+	float:right;
+    font-family:"OpenSans-Light", sans-serif;
+	font-size:18px;
+	padding-left:10px;
+	color:#FF0000;
+	background-color:#FFFFFF;
+	border: 1px solid #FF0000;
+	width:350px;
+	height:30px;
+}
+
+.botonBuscar{
+	float:left;
+	margin-top:30px;
+	background-image:url(../img/search32.png);
+	border: 1px solid #FF0000;
+	width:32px;
+	height:32px;
+}
+
+.botonSubmit{
+	margin-top:15px;
+	background-color:#FF0000;
+	font-family:"OpenSans-SemiBold", sans-serif;
+	border: 1px solid #FF0000;
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+
+
+#botonLogin{
+	width:141px;
+	height:51px;
+	background-image:url(../img/fondoboton2.png);
+	background-color:transparent;
+	border:none;
+	margin-top:15px;
+	font-family:"OpenSans-Light", sans-serif;
+	font-size:20px;
+	text-shadow:0 2px #FFFFFF;
+	color:#000000;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#botonLogin:hover{
+	cursor:pointer;
+}
+
+#botonLogin:active{
+	background-image:url(../img/fondoboton22.png);
+}
+
+#cajaform{
+	text-align:center;
+	padding-left:15px;
+	padding-top:15px;
+	font-family:"OpenSans-Light", sans-serif;
+	font-size:20px;
+	/*left:auto;*/
+	background: rgba(255, 238, 99, 0.8);
+	height: 170px;
+	width: 350px;
+	margin-left:auto;
+	margin-right:auto;
+}
