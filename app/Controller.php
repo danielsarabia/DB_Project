@@ -2,6 +2,41 @@
 
 class questionaire{
 
+    public function add() {
+        require __DIR__ . '/templates/addQuestionnaire.php';
+    }
+
+    public function upload() {
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $file = "../uploads/file.xml";
+            if(!move_uploaded_file($_FILES["file"]["tmp_name"], $file)) {
+                echo "<script>alert('There was an error uploading the file. Please try again.');window.location.href='/DB_Project/web/questionaire/add'</script>";
+            }
+            else {
+                $xml=simplexml_load_file($file);
+                $params = $xml;
+            }
+        }
+
+        require __DIR__.'/templates/savedQuestionnaire.php';
+    }
+
+    public function publish() {
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $m = new Model(Config::$mvc_bd_nombre);
+
+            $file = "../uploads/file.xml";
+            $xml=simplexml_load_file($file);
+
+            $m->addQuestionnaire($xml)
+
+        }
+        else {
+            echo "<script>window.location.href='/DB_Project/web/questionaire/all'</script>";
+        }
+    }
 
     public function all(){
     $m = new Model(Config::$mvc_bd_nombre);

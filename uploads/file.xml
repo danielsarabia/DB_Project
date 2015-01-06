@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questionnaire>
+	<question number="1">
+		<title>Where did The Flowerpot Men want to go in 1967?</title> 
+		<options>	
+			<A>New York</A> 
+			<B>San Francisco</B> 
+			<C>Woodstock</C> 
+			<D>Memphis</D> 
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "2"> 
+		<title>James Bond was searching for what kind of airplane in 'Thunderball'?</title> 
+		<options>	
+			<A>707</A> 
+			<B>Piper</B> 
+			<C>Vulkan</C> 
+			<D>B-52</D> 
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "3"> 
+		<title>Who wrote “don't count your chickens before they are hatched”?</title> 
+		<options>	
+			<A>Aesop</A> 
+			<B>Shakespeare</B> 
+			<C>Ben Franklin</C> 
+			<D>Chaucer</D> 
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "4"> 
+		<title>Which kind of animal did Florence Nightingale often carry around in her pocket?</title> 
+		<options>	
+			<A>Kitten</A> 
+			<B>Puppy</B> 
+			<C>Owl</C> 
+			<D>Snake</D> 
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "5"> 
+		<title>'Goodbye Farewell and Amen' was the final episode of which TV series?</title> 
+		<options>	
+			<A>MASH</A>
+			<B>Dallas</B>
+			<C>Friends</C>
+			<D>The Muppet Show</D>
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "6"> 
+		<title>In which film do the words “I love you” save the planet earth?</title> 
+		<options>	
+			<A>The Day After Tomorrow</A>
+			<B>The 5th Element</B>
+			<C>Mars Attacks</C>
+			<D>Independence Day</D>
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "7"> 
+		<title>What is the name of the man servant in 'Around the world in 80 days'?</title> 
+		<options>	
+			<A>Pas Partout</A> 
+			<B>Cato</B> 
+			<C>Giles</C> 
+			<D>Machu Picchu</D> 
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "8"> 
+		<title>In which book is there an inn called Admiral Benbow?</title> 
+		<options>	
+			<A>Lord of the Rings</A> 
+			<B>Gulliver?s Travels</B> 
+			<C>Treasure Island</C> 
+			<D>Peter Pan</D> 
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "9"> 
+		<title>Which actor appeared in the Cranberries music video Ridiculous Thought?</title> 
+		<options>	
+			<A>Bruce Willis</A> 
+			<B>Donald Sutherland</B> 
+			<C>George Clooney</C> 
+			<D>Elijah Wood</D>
+		</options>
+		<answer>D</answer> 
+	</question>
+	<question number = "10"> 
+		<title>How many earths would fit inside the sun?</title> 
+		<options>	
+			<A>circa 100</A> 
+			<B>circa 1,000,000</B> 
+			<C>circa 10,000</C> 
+			<D>circa 100,000</D> 
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "11"> 
+		<title>What does a nidoligist study?</title> 
+		<options>	
+			<A>Waves</A> 
+			<B>Clouds</B> 
+			<C>Bird Nests</C> 
+			<D>Caves</D> 
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "12"> 
+		<title>What is the more usual name for Roentgen Rays?</title> 
+		<options>	
+			<A>X Rays</A> 
+			<B>Gamma Rays</B> 
+			<C>Ultraviolet Rays</C> 
+			<D>Magnetic Resonance</D> 
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "13"> 
+		<title>A 'Miller' is a move in which sport?</title> 
+		<options>	
+			<A>Ice Hockey</A> 
+			<B>Trampolining</B> 
+			<C>Diving</C> 
+			<D>Chess</D> 
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "14"> 
+		<title>Festfolk was the original name for which group?</title> 
+		<options>	
+			<A>The Beach Boys</A> 
+			<B>ABBA</B> 
+			<C>Motorhead</C> 
+			<D>Simon and Garfunkel</D> 
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "15"> 
+		<title>Hypermetropic people are what?</title> 
+		<options>	
+			<A>obese</A> 
+			<B>underfed</B> 
+			<C>moody</C> 
+			<D>far sighted</D> 
+		</options>
+		<answer>D</answer> 
+	</question>
+	<question number = "16"> 
+		<title>Fredrick Sanger invented which life saver?</title> 
+		<options>	
+			<A>Insulin</A> 
+			<B>Safety Pin</B> 
+			<C>Inflatable Life Raft</C> 
+			<D>Aspirin</D> 
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "17"> 
+		<title>Which NHL hockey team has won the most Stanley Cups?</title> 
+		<options>	
+			<A>Toronto Maple Leafs</A> 
+			<B>Boston Bruins</B> 
+			<C>Montreal Canadiens</C> 
+			<D>Nw York Rangers</D>
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "18"> 
+		<title>Herodotus is known as the father of what?</title> 
+		<options>	
+			<A>History</A> 
+			<B>Medicine</B> 
+			<C>Theatre</C> 
+			<D>Music</D>  
+		</options>
+		<answer>A</answer> 
+	</question>
+	<question number = "19"> 
+		<title>The title of which Pink Floyd album is also a chapter in 'The Wind In The Willows'?</title> 
+		<options>	
+			<A>Wish you were here</A> 
+			<B>The piper at the gates of dawn</B> 
+			<C>Meddle</C> 
+			<D>Animals</D>
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "20"> 
+		<title>Anemophobia is the fear of what?</title> 
+		<options>	
+			<A>Spiders</A> 
+			<B>The Dark</B> 
+			<C>Fire</C> 
+			<D>Wind</D>
+		</options>
+		<answer>D</answer>
+	</question>
+</questionnaire>
+
+
