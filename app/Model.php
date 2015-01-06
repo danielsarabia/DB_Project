@@ -4,20 +4,25 @@
 class Model{
     
     protected $db;
-    
+    protected $mvc_bd_connection;
     
     public function __construct($dbname)
      {
-       $mvc_bd_connection = new MongoClient();
+       $this->mvc_bd_connection = new MongoClient();
 
-       if (!$mvc_bd_connection) {
+       if (!$this->mvc_bd_connection) {
            die('The connection to the Database was unsuccesful.');
        }
-       $db = $mvc_bd_connection->$dbname;
+       $db = $this->mvc_bd_connection->$dbname;
 
        $this->db = $db;
-     }
-    
+    }
+
+
+    public function __destruct() {
+        $this->mvc_bd_connection->close();
+    }
+
     public function insertScore($questionaire_n,$userName,  $score){
         //FIND USER ID
         $collection = $this->db->users;
@@ -105,5 +110,6 @@ class Model{
     }
     
     public function addQuestionaire($xml){
+
     }
 }
