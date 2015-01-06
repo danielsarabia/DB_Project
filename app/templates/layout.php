@@ -7,11 +7,11 @@
 	if (isset($_SESSION["autentica"])){
     if($_SESSION["autentica"] != "SIP"){
     //Si no hay sesión activa, lo direccionamos al index.php (inicio de sesión)
-    header("Location: ./user/login");
+    header("Location: ../user/login");
 	exit();
     }
 	}else{
-	header("Location: ./user/login");
+	header("Location: ../user/login");
 	exit();
 	}
     ?>
