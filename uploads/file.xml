@@ -1,206 +1,206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <questionnaire>
-	<question number="1">
-		<title>Where did The Flowerpot Men want to go in 1967?</title> 
+	<question number = "1"> 
+		<title>Which pop duo was the first western band to play in The Peoples Republic of China?</title> 
 		<options>	
-			<A>New York</A> 
-			<B>San Francisco</B> 
-			<C>Woodstock</C> 
-			<D>Memphis</D> 
-		</options>
-		<answer>B</answer> 
-	</question>
-	<question number = "2"> 
-		<title>James Bond was searching for what kind of airplane in 'Thunderball'?</title> 
-		<options>	
-			<A>707</A> 
-			<B>Piper</B> 
-			<C>Vulkan</C> 
-			<D>B-52</D> 
-		</options>
-		<answer>C</answer> 
-	</question>
-	<question number = "3"> 
-		<title>Who wrote “don't count your chickens before they are hatched”?</title> 
-		<options>	
-			<A>Aesop</A> 
-			<B>Shakespeare</B> 
-			<C>Ben Franklin</C> 
-			<D>Chaucer</D> 
+			<A>Wham</A> 
+			<B>Simon and Garfunkel</B> 
+			<C>Chas and Dave</C> 
+			<D>Right Said Fred</D> 
 		</options>
 		<answer>A</answer> 
 	</question>
-	<question number = "4"> 
-		<title>Which kind of animal did Florence Nightingale often carry around in her pocket?</title> 
-		<options>	
-			<A>Kitten</A> 
-			<B>Puppy</B> 
-			<C>Owl</C> 
-			<D>Snake</D> 
+	<question number = "2"> 
+		<title>Timber selected from how many fully grown oak trees were needed to build a large 3 decker Royal Navy battle ship in the 18th century?</title> 
+		<options>
+			<A>50</A> 
+			<B>500</B> 
+			<C>1,500</C> 
+			<D>3,500</D> 
 		</options>
-		<answer>C</answer> 
+		<answer>D</answer> 
+	</question>
+	<question number = "3"> 
+		<title>Speed skating originated in which country?</title>
+		<options> 
+			<A>Russia</A> 
+			<B>Netherlands</B> 
+			<C>Canada</C> 
+			<D>Norway</D> 
+		</options>
+		<answer>B</answer> 
+	</question>
+	<question number = "4"> 
+		<title>Off the coast of which country did the Amoco Cadiz sink?</title> 
+		<options>
+			<A>South Africa</A> 
+			<B>France</B> 
+			<C>USA</C> 
+			<D>Spain</D> 
+		</options>
+		<answer>B</answer> 
 	</question>
 	<question number = "5"> 
-		<title>'Goodbye Farewell and Amen' was the final episode of which TV series?</title> 
+		<title>The song 'An Englishman in New York' was about which man?</title> 
 		<options>	
-			<A>MASH</A>
-			<B>Dallas</B>
-			<C>Friends</C>
-			<D>The Muppet Show</D>
+			<A>Quentin Crisp</A> 
+			<B>Sting</B> 
+			<C>John Lennon</C> 
+			<D>Gordon Sumner</D> 
 		</options>
 		<answer>A</answer> 
 	</question>
 	<question number = "6"> 
-		<title>In which film do the words “I love you” save the planet earth?</title> 
+		<title>In the book The Last Of The Mohicans what was the name of Chingachgook's only son?</title> 
 		<options>	
-			<A>The Day After Tomorrow</A>
-			<B>The 5th Element</B>
-			<C>Mars Attacks</C>
-			<D>Independence Day</D>
-		</options>
-		<answer>B</answer> 
-	</question>
-	<question number = "7"> 
-		<title>What is the name of the man servant in 'Around the world in 80 days'?</title> 
-		<options>	
-			<A>Pas Partout</A> 
-			<B>Cato</B> 
-			<C>Giles</C> 
-			<D>Machu Picchu</D> 
-		</options>
-		<answer>A</answer> 
-	</question>
-	<question number = "8"> 
-		<title>In which book is there an inn called Admiral Benbow?</title> 
-		<options>	
-			<A>Lord of the Rings</A> 
-			<B>Gulliver?s Travels</B> 
-			<C>Treasure Island</C> 
-			<D>Peter Pan</D> 
-		</options>
-		<answer>C</answer> 
-	</question>
-	<question number = "9"> 
-		<title>Which actor appeared in the Cranberries music video Ridiculous Thought?</title> 
-		<options>	
-			<A>Bruce Willis</A> 
-			<B>Donald Sutherland</B> 
-			<C>George Clooney</C> 
-			<D>Elijah Wood</D>
+			<A>Mingo</A> 
+			<B>Lightfoot</B> 
+			<C>Magua</C> 
+			<D>Uncas</D> 
 		</options>
 		<answer>D</answer> 
 	</question>
+	<question number = "7"> 
+		<title>In which year did Louis Reard invent the bikini?</title> 
+		<options>
+			<A>1906</A> 
+			<B>1926</B> 
+			<C>1946</C> 
+			<D>1966</D> 
+		</options>
+		<answer>C</answer> 
+	</question>
+	<question number = "8"> 
+		<title>In which continent did the ostrich originate?</title> 
+		<options>
+			<A>Africa</A> 
+			<B>Australia</B> 
+			<C>North America</C> 
+			<D>Asia</D>
+		</options> 
+		<answer>A</answer> 
+	</question>
+	<question number = "9"> 
+		<title>What are the names of the two main characters in Diana Gabaldon's highland saga novels?</title>
+		<options> 
+			<A>Jamie and Claire</A> 
+			<B>Fergus and Fiona</B> 
+			<C>Rab and Elizabeth</C> 
+			<D>Hamish and Maggie</D> 
+		</options>
+		<answer>A</answer> 
+	</question>
 	<question number = "10"> 
-		<title>How many earths would fit inside the sun?</title> 
-		<options>	
-			<A>circa 100</A> 
-			<B>circa 1,000,000</B> 
-			<C>circa 10,000</C> 
-			<D>circa 100,000</D> 
+		<title>Julius Caesar said "The die is cast" after crossing which river?</title> 
+		<options>
+			<A>Danube</A> 
+			<B>Rubicon</B> 
+			<C>Thames</C> 
+			<D>Tiber</D> 
 		</options>
 		<answer>B</answer> 
 	</question>
 	<question number = "11"> 
-		<title>What does a nidoligist study?</title> 
-		<options>	
-			<A>Waves</A> 
-			<B>Clouds</B> 
-			<C>Bird Nests</C> 
-			<D>Caves</D> 
+		<title>Who was the only English player to win the European Golden Boot award? </title>
+		<options> 
+			<A>Robbie Fowler</A> 
+			<B>Michael Owen</B> 
+			<C>Gary Lineker</C> 
+			<D>Kevin Phillips</D> 
+		</options>
+		<answer>D</answer> 
+	</question>
+	<question number = "12"> 
+		<title>Doris Day had a sleepy hit with which song?</title> 
+		<options>
+			<A>Pillow talk</A> 
+			<B>Golden slumbers</B> 
+			<C>The beds too big without you</C> 
+			<D>Tears on my pillow</D> 
+		</options>
+		<answer>A</answer> 
+	</question> 
+	<question number = "13"> 
+		<title>Which singer once took a bite out of a Beach Boys record during a press conference?</title> 
+		<options>
+			<A>Robbie Williams</A> 
+			<B>Engelbert Humperdinck</B> 
+			<C>Shane McGowan</C> 
+			<D>James Blunt</D> 
 		</options>
 		<answer>C</answer> 
 	</question>
-	<question number = "12"> 
-		<title>What is the more usual name for Roentgen Rays?</title> 
-		<options>	
-			<A>X Rays</A> 
-			<B>Gamma Rays</B> 
-			<C>Ultraviolet Rays</C> 
-			<D>Magnetic Resonance</D> 
-		</options>
-		<answer>A</answer> 
-	</question>
-	<question number = "13"> 
-		<title>A 'Miller' is a move in which sport?</title> 
-		<options>	
-			<A>Ice Hockey</A> 
-			<B>Trampolining</B> 
-			<C>Diving</C> 
-			<D>Chess</D> 
-		</options>
-		<answer>B</answer> 
-	</question>
 	<question number = "14"> 
-		<title>Festfolk was the original name for which group?</title> 
-		<options>	
-			<A>The Beach Boys</A> 
-			<B>ABBA</B> 
-			<C>Motorhead</C> 
-			<D>Simon and Garfunkel</D> 
+		<title>Who was the first band to play at the Cavern Club?</title> 
+		<options>
+			<A>Swinging Blue Jeans</A> 
+			<B>The <br /> Merseysippi</B> 
+			<C>Beatles</C> 
+			<D>Merseybeats</D> 
 		</options>
 		<answer>B</answer> 
 	</question>
 	<question number = "15"> 
-		<title>Hypermetropic people are what?</title> 
-		<options>	
-			<A>obese</A> 
-			<B>underfed</B> 
-			<C>moody</C> 
-			<D>far sighted</D> 
-		</options>
-		<answer>D</answer> 
-	</question>
-	<question number = "16"> 
-		<title>Fredrick Sanger invented which life saver?</title> 
-		<options>	
-			<A>Insulin</A> 
-			<B>Safety Pin</B> 
-			<C>Inflatable Life Raft</C> 
-			<D>Aspirin</D> 
+		<title>What are Lanthanides?</title> 
+		<options>
+			<A>Elements in the periodic table</A> 
+			<B>Mountains on Earth</B> 
+			<C>Mountains on the Moon</C> 
+			<D>Bacterium</D> 
 		</options>
 		<answer>A</answer> 
 	</question>
-	<question number = "17"> 
-		<title>Which NHL hockey team has won the most Stanley Cups?</title> 
-		<options>	
-			<A>Toronto Maple Leafs</A> 
-			<B>Boston Bruins</B> 
-			<C>Montreal Canadiens</C> 
-			<D>Nw York Rangers</D>
+	<question number = "16"> 
+		<title>Which band was not from Liverpool?</title>
+		<options> 
+			<A>Searchers</A> 
+			<B>A Flock of Seagulls</B> 
+			<C>Stone the crows</C> 
+			<D>OMD</D> 
 		</options>
 		<answer>C</answer> 
 	</question>
-	<question number = "18"> 
-		<title>Herodotus is known as the father of what?</title> 
-		<options>	
-			<A>History</A> 
-			<B>Medicine</B> 
-			<C>Theatre</C> 
-			<D>Music</D>  
-		</options>
-		<answer>A</answer> 
-	</question>
-	<question number = "19"> 
-		<title>The title of which Pink Floyd album is also a chapter in 'The Wind In The Willows'?</title> 
-		<options>	
-			<A>Wish you were here</A> 
-			<B>The piper at the gates of dawn</B> 
-			<C>Meddle</C> 
-			<D>Animals</D>
+	<question number = "17"> 
+		<title>Which boxer twice defeated Nigel Benn in 1996?</title>
+		<options> 
+			<A>Thulani Malinga</A> 
+			<B>Steve Collins</B> 
+			<C>Roy Jones</C> 
+			<D>Gerald McClellan</D> 
 		</options>
 		<answer>B</answer> 
 	</question>
+	<question number = "18"> 
+		<title>On what make of motorcycle did Barry Sheene win the 500cc-world title in 1977?</title>
+		<options> 
+			<A>Kawasaki</A> 
+			<B>Suzuki</B> 
+			<C>Mitsubishi</C> 
+			<D>Yamaha</D>
+		</options> 
+		<answer>B</answer> 
+	</question>
+	<question number = "19"> 
+		<title>What part of the body does a turtle use to breathe?</title>
+		<options>
+			<A>Belly</A> 
+			<B>Shell</B> 
+			<C>Mouth</C> 
+			<D>Anus</D>
+		</options> 
+		<answer>D</answer> 
+	</question>
 	<question number = "20"> 
-		<title>Anemophobia is the fear of what?</title> 
-		<options>	
-			<A>Spiders</A> 
-			<B>The Dark</B> 
-			<C>Fire</C> 
-			<D>Wind</D>
+		<title>For how long is a dog pregnant?</title>
+		<options> 
+			<A>9 Weeks</A> 
+			<B>9 Days</B> 
+			<C>9 Months</C> 
+			<D>9 Fortnights</D> 
 		</options>
-		<answer>D</answer>
+		<answer>A</answer> 
 	</question>
 </questionnaire>
-
+	
 

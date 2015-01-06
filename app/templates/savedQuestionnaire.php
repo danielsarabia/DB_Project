@@ -9,7 +9,17 @@
 </form>
 <p><button><a href="../questionaire/add">No, start over</a></button></p>
 
-<table style="text-align: center">
+<style type="text/css">
+	table {
+	    border-collapse: collapse;
+	}
+
+	table, th, td {
+	    border: 1px solid black;
+	}
+</style>
+
+<table style="text-align: center;">
 <tr>
 	<th>Question</th>
 	<th>Answer A</th>

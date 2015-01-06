@@ -30,12 +30,12 @@ class questionaire{
             $file = "../uploads/file.xml";
             $xml=simplexml_load_file($file);
 
-            $m->addQuestionnaire($xml)
+            $m->addQuestionnaire($xml);
+
+            echo "<script>alert('The file was successfully added to the database.');</script>";
 
         }
-        else {
-            echo "<script>window.location.href='/DB_Project/web/questionaire/all'</script>";
-        }
+        echo "<script>window.location.href='/DB_Project/web/questionaire/all'</script>";
     }
 
     public function all(){

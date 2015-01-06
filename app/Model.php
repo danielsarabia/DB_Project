@@ -109,7 +109,48 @@ class Model{
         return $data;
     }
     
-    public function addQuestionaire($xml){
+    public function addQuestionnaire($xml){
+        $collection = $this->db->questionaires; //Select the questionnaires collection from MongoDB
+
+        $queryObj = array(); //Empty query builder
+        
+        //Add basic info to the builder (questionnaire_n, title & description of the questionnaire)
+        $queryObj["questionaire_n"] = (string)time();
+        $queryObj["title"] = "Yet another test";
+        $queryObj["description"] = "I am out of imagination. Sorry... :P";
+
+        $questions = array(); //Empty container for the questions
+
+        foreach($xml as $q){
+            $question = array(); //Container for the question's info
+
+            //Sets all the information that concerns a question
+            $question['question_n'] = (string)$q['number'];
+            $question['question'] = (string)$q->title;
+
+            $question['options'] = array(); //Empty container for the options
+            //Options are added here
+            array_push($question['options'], array("A" => (string)$q->options->A));
+            array_push($question['options'], array("B" => (string)$q->options->B));
+            array_push($question['options'], array("C" => (string)$q->options->C));
+            array_push($question['options'], array("D" => (string)$q->options->D));
+
+            $question['answer'] = (string)$q->answer;
+
+            //The question is added to the container for the questions
+            array_push($questions,$question);
+        }
+
+        //Add all questions to the builder
+        $queryObj['questions'] = $questions;
+
+        try {
+            //Insert questionnaire into the database
+            $collection->insert($queryObj);
+
+        } catch(Exception $e) {
+            echo "Hubo un error\n";
+        }
 
     }
 }

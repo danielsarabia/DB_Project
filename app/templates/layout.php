@@ -38,7 +38,7 @@
                     <ul>
                         <p>TESTS</p>
                         <li><a href="/DB_Project/web/questionaire/all">See All <img src="/DB_Project/web/img/search32pp.png"/></a></li>
-                        <li><a>Add <img src="/DB_Project/web/img/plus32pp.png"/></a></li>
+                        <li><a href="/DB_Project/web/questionaire/add">Add <img src="/DB_Project/web/img/plus32pp.png"/></a></li>
                     </ul>
                     <ul>
                         <p>PROFILE</p>
