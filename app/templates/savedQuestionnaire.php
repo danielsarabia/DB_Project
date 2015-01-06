@@ -20,6 +20,10 @@
 </style>
 
 <table style="text-align: center;">
+<caption>
+<p><strong>Title:&nbsp;</strong><?php echo $params['title']?></p>
+<p><strong>Description:&nbsp;</strong><?php echo $params['description']?></p>
+</caption>
 <tr>
 	<th>Question</th>
 	<th>Answer A</th>

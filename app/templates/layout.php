@@ -42,7 +42,7 @@
                     </ul>
                     <ul>
                         <p>PROFILE</p>
-                        <li><a>Configuration <img src="/DB_Project/web/img/gear32pp.png"/></a></li>
+                        <!--<li><a>Configuration <img src="/DB_Project/web/img/gear32pp.png"/></a></li>-->
                         <li><a href="/DB_Project/web/score/all">My Grades <img src="/DB_Project/web/img/notecheck32pp.png"/></a></li>
                     </ul>
                 

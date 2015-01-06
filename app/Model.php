@@ -116,8 +116,8 @@ class Model{
         
         //Add basic info to the builder (questionnaire_n, title & description of the questionnaire)
         $queryObj["questionaire_n"] = (string)time();
-        $queryObj["title"] = "Yet another test";
-        $queryObj["description"] = "I am out of imagination. Sorry... :P";
+        $queryObj["title"] = (string)$xml['title'];
+        $queryObj["description"] = (string)$xml['description'];
 
         $questions = array(); //Empty container for the questions
 
